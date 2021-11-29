@@ -21,16 +21,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     height: 100vh; 
-    margin-right: -15rem;
+    margin-right: -10rem;
 }
+
 
 .instagram-phone{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
+}
+
+.instagram-phone img{
+    width: 600px;
+    height: 540px;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
 }
 
 .login{
@@ -75,7 +83,7 @@ min-height: 19rem;
 }
 
 .fotoperfil img{
-    width: 15%;
+    width: 30%;
     border-radius: 100%;
  }
 
@@ -114,15 +122,16 @@ color: #0095f6;
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
     padding: 1rem;
     
 }
 
 .app-download{
-height: 3rem;
-width: 13rem;
-background-size: cover;
-justify-content: center;
+    height: 3rem;
+    width: 13rem;
+    background-size: cover;
+    justify-content: center;
 
 }
 
